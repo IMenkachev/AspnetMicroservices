@@ -7,6 +7,6 @@ namespace AspnetRunBasics.Services
     {
         Task<BasketModel> GetBasket(string userName);
         Task<BasketModel> UpdateBasket(BasketModel model);
-        Task CheckoutBasket(BasketCheckoutModel model)
+        Task CheckoutBasket(BasketCheckoutModel model);
     }
 }
